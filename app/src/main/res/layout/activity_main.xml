@@ -37,7 +37,6 @@
         >
 
         <!--Row 1 -->
-
         <!--Column 1 -->
         <androidx.cardview.widget.CardView
             android:clickable="true"

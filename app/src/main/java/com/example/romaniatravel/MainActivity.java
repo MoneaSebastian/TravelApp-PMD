@@ -2,6 +2,7 @@ package com.example.romaniatravel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -27,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Straja(View view) {
-        Toast.makeText(this, "You have clicked Straja", Toast.LENGTH_LONG).show();
+        Intent showDetailActivityStraja = new Intent(getApplicationContext(), DetailActivityStraja.class);
+        startActivity(showDetailActivityStraja);
     }
 
     public void Sureanu(View view) {
