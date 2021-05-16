@@ -46,6 +46,7 @@ public class DetailActivityStraja extends AppCompatActivity implements OnMapRead
         // Add a marker in Sydney, Australia,
         // and move the map's camera to the same location.
         LatLng straja = new LatLng(45.32177, 23.23638);
+        googleMap.setMinZoomPreference(17.0f);
         googleMap.addMarker(new MarkerOptions()
                 .position(straja)
                 .title("Marker in Straja"));
